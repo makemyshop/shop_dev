@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.bounce {
+    animation: bounce 1.5s infinite;
+}
+
+.card {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    opacity: 0;
+    transform: translateY(100px);
+    position: absolute;
+    width: 100%;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+.pricing-card:hover {
+    border-color:#A955F7; 
+}
+
+.hero-button {
+    align-self: center; 
+    margin-top: 12px;
+  
+}
+
+.hero-button-started{
+ position: relative;
+ bottom: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.text-gray-800 {
+    color: #2d3748;
+}
+
+.text-gray-600 {
+    color: #4a5568;
+    font-size: 15px;
+}
+
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.hero_banner{
+   background: url('./images/Want.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
